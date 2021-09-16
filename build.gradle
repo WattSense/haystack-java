@@ -88,7 +88,7 @@ javadoc {
     }
 }
 
-gradle.taskGraph.whenReady {taskGraph ->
-   if (!taskGraph.hasTask(release)) version += "-SNAPSHOT"
-}
+// gradle.taskGraph.whenReady {taskGraph ->
+//    if (!taskGraph.hasTask(release)) version += "-SNAPSHOT"
+// }
 
